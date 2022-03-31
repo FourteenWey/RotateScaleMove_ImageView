@@ -1,0 +1,31 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven {url 'https://developer.huawei.com/repo/'}
+        maven { url "https://s01.oss.sonatype.org/content/groups/public" }
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven {url 'https://developer.huawei.com/repo/'}
+        maven { url "https://s01.oss.sonatype.org/content/groups/public" }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "RotateImageView"
+include ':app'
+include ':rotate-imageview'
